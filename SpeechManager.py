@@ -94,7 +94,7 @@ def speechSaying_google_cloud(text):  #to swapp if need better
 
 
 def audioRecognition_google_cloud(audio):
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'alpine-comfort-450522-r7-5220dba41876.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'Api key'
 
     client = speech.SpeechClient()
 
